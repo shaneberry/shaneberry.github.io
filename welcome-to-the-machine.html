@@ -15,24 +15,29 @@
         <header id="banner" class="body">
                 <h1><a href="http://shaneberry.github.io/">Welcome to the Machine </a></h1>
                 <nav><ul>
-                    <li><a href="http://shaneberry.github.io/category/posts.html">posts</a></li>
+                    <li class="active"><a href="http://shaneberry.github.io/category/posts.html">posts</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://shaneberry.github.io/welcome-to-the-machine.html" rel="bookmark"
+           title="Permalink to Welcome to the Machine">Welcome to the Machine</a></h1>
+    </header>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="http://shaneberry.github.io/running-jupyter-blog.html">Running Jupyter for my Blog</a></h1>
+    <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2018-04-12T17:57:00-05:00">
-                Published: Thu 12 April 2018
+        <abbr class="published" title="2018-04-08T14:49:00-05:00">
+                Published: Sun 08 April 2018
         </abbr>
 
         <address class="vcard author">
                 By                         <a class="url fn" href="http://shaneberry.github.io/author/shane-r-berry.html">Shane R Berry</a>
         </address>
 <p>In <a href="http://shaneberry.github.io/category/posts.html">posts</a>.</p>
-<p>tags: <a href="http://shaneberry.github.io/tag/jupyter.html">jupyter</a> </p>
-</footer><!-- /.post-info --><style type="text/css">/*!
+<p>tags: <a href="http://shaneberry.github.io/tag/python-jupyter.html">python jupyter</a> </p>
+</footer><!-- /.post-info -->      <style type="text/css">/*!
 *
 * IPython notebook
 *
@@ -1008,14 +1013,7 @@ h6:hover .anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>First activate my conda environment:</p>
-<p>~ $ source activate blog</p>
-<p>Then change to the folder for my blog content:</p>
-<p>~ $ cd ~/welcometothemachine/content</p>
-<p>Then start up the Jupyter server:</p>
-<p>~/welcometothemachine/content $ jupyter notebook</p>
-<p>Now, any notebook I create will be saved in the content folder for my blog.</p>
-<p>If you save any checkpoints, it will create a folder and will cause and error or warning.</p>
+<p>My adventures in machine learning - by Shane R Berry</p>
 </div>
 </div>
 </div>
@@ -1023,13 +1021,47 @@ h6:hover .anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Open up another command prompt and change to the blog folder and run 'pelican content' to generate the html.</p>
-<p>~/welcometothemachine/content $ pelican content</p>
-<p>The generated html will be placed in the output folder.</p>
-<p>Change to the output folder and type the command below to run the local pelican server</p>
-<p>~/welcometothemachine/output $ python -m pelican.server</p>
-<p>Then copy this into the browser to preview your blog:</p>
-<p><a href="http://localhost:8000/">http://localhost:8000/</a></p>
+<p>This is my first post. Better do some Python...</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [1]:</div>
+<div class="inner_cell">
+<div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">greeting</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'Hello'</span><span class="p">,</span><span class="s1">'World'</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [4]:</div>
+<div class="inner_cell">
+<div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">greeting</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Hello
+World
+</pre>
+</div>
+</div>
+<div class="output_area">
+<div class="prompt output_prompt">Out[4]:</div>
+<div class="output_text output_subarea output_execute_result">
+<pre>[None, None]</pre>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -1062,54 +1094,11 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 </script>
-                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
 
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="http://shaneberry.github.io/welcome-to-the-machine.html" rel="bookmark"
-                           title="Permalink to Welcome to the Machine">Welcome to the Machine</a></h1>
-                </header>
+    </div><!-- /.entry-content -->
 
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2018-04-08T14:49:00-05:00">
-                Published: Sun 08 April 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="http://shaneberry.github.io/author/shane-r-berry.html">Shane R Berry</a>
-        </address>
-<p>In <a href="http://shaneberry.github.io/category/posts.html">posts</a>.</p>
-<p>tags: <a href="http://shaneberry.github.io/tag/python-jupyter.html">python jupyter</a> </p>
-</footer><!-- /.post-info -->                
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>My adventures in machine learning - by Shane R Berry</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>This is my first post. Better do some Python...</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-                <a class="readmore" href="http://shaneberry.github.io/welcome-to-the-machine.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-                </section><!-- /#content -->
+  </article>
+</section>
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>
